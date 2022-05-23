@@ -64,8 +64,22 @@
     width: 30rem;
     border-radius: 1em;
     margin-bottom: 4px;
-    padding: 1em;
+    padding: 1em;   
+}
 
+.todo-li{
+    display: flex;
+    justify-content: space-between;
+}
 
-    
+.todo-li button{
+    border-radius: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color:#d14e4e;
+    cursor: pointer;
+}
+
+.todo-li button:hover{
+    background-color:#650404;
 }
